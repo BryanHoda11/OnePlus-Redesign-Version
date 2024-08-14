@@ -1,0 +1,120 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'OnePlus Sans Regular', 'Helvetica Neue', Helvetica, Arial, sans-serif, system-ui;
+}
+
+.filter {
+    filter: invert(1);
+}
+
+.yellow {
+    filter: brightness(0) saturate(100%) invert(74%) sepia(99%) saturate(1100%) hue-rotate(1deg) brightness(70%) contrast(103%);
+}
+
+.yellow2 {
+    filter: brightness(0) saturate(100%) invert(74%) sepia(99%) saturate(1100%) hue-rotate(1deg) brightness(85%) contrast(103%);
+}
+
+.yellow3 {
+    filter: brightness(0) saturate(100%) invert(74%) sepia(99%) saturate(1100%) hue-rotate(1deg) brightness(90%) contrast(103%);
+}
+
+.yellow4 {
+    filter: brightness(0) saturate(100%) invert(74%) sepia(99%) saturate(1100%) hue-rotate(1deg) brightness(100%) contrast(103%);
+}
+
+.yellow5 {
+    filter: brightness(0) saturate(100%) invert(74%) sepia(99%) saturate(1100%) hue-rotate(1deg) brightness(109%) contrast(103%);
+}
+
+.star:hover~img {
+    opacity: 0.5;
+}
+
+.circle {
+    z-index: 0;
+    position: absolute;
+    right: -315px;
+    bottom: -315px;
+    width: 630px;
+    height: 630px;
+    border: 30px solid #f50514;
+    border-radius: 50%;
+}
+
+.circle2 {
+    z-index: 0;
+    position: absolute;
+    right: -315px;
+    bottom: -315px;
+    width: 550px;
+    height: 550px;
+    border: 30px solid #f50514;
+    border-radius: 50%;
+}
+
+.scrollbar::-webkit-scrollbar {
+    width: 8px;
+    height: 9px;
+}
+
+.scrollbar::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+.scrollbar::-webkit-scrollbar-thumb {
+    background-color: #f1f1f1;
+    border-radius: 4px;
+    border: 3px solid #f1f1f1;
+}
+
+.black-scrollbar::-webkit-scrollbar {
+    width: 8px;
+    height: 9px;
+}
+
+.black-scrollbar::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+.black-scrollbar::-webkit-scrollbar-thumb {
+    background-color: #222121;
+    border-radius: 4px;
+    border: none;
+}
+
+input[type="checkbox"] {
+    appearance: none; 
+    width: 18px; 
+    height: 18px; 
+    background-color: #fff; 
+    border: 1px solid gray; 
+}
+
+
+input[type="checkbox"]:hover {
+    appearance: none;
+    border: 1px solid #ff0000;
+    color: #fff;
+}
+
+input[type="checkbox"]:checked {
+    background-color: #ff0000;
+    border-color: #ff0000;
+    color: #fff;
+}
+
+input[type="checkbox"]:checked::before {
+    content: "\2714";
+    color: #fff;
+    display: block;
+    text-align: center;
+    font-size: 16px;
+    line-height: 17px;
+}
