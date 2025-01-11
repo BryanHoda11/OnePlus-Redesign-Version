@@ -1,7 +1,7 @@
-import { FaGithub } from "react-icons/fa6";
 import Home from "./components/Home"
 import Store from "./components/Store";
 import Phones from "./components/Phones";
+import { FaGithub } from "react-icons/fa6";
 import { NavLink } from "react-router-dom";
 import { BrowserRouter as Router, Routes, Route, useLocation } from 'react-router-dom';
 

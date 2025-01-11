@@ -194,7 +194,7 @@ const Store = () => {
             name: 'Tablet',
         },
         {
-            img: 'store_images/budspro2.png',
+            img: '/store_images/budspro2.png',
             name: 'Audio',
         },
         {
@@ -202,7 +202,7 @@ const Store = () => {
             name: 'Wearables',
         },
         {
-            img: 'store_images/cable.png',
+            img: '/store_images/cable.png',
             name: 'Power & Cables',
         },
         {
@@ -215,70 +215,70 @@ const Store = () => {
         {
             name: 'OnePlus 12R',
             info: 'From ₹39,999 incl. Bank Discount Enjoy No Cost EMI up to 9 months.',
-            img: 'store_images/oneplus12r.png'
+            img: '/store_images/oneplus12r.png'
         },
         {
             name: 'OnePlus Nord CE4 Lite 5G',
             info: 'From ₹17,999 Incl. Bank Discount',
-            img: 'store_images/oneplusnordce.png'
+            img: '/store_images/oneplusnordce.png'
         },
         {
             name: 'OnePlus 12',
             info: 'From ₹57,999 incl. Bank Discount Enjoy ₹7000 Instant Bank Discount and No Cost EMI up to 12 months.',
-            img: 'store_images/oneplus12.png'
+            img: '/store_images/oneplus12.png'
         },
         {
             name: 'OnePlus Nord CE4',
             info: 'From ₹21,999 Incl. Bank Discount. No Cost EMI upto 6 Months.',
-            img: 'store_images/oneplusnordce4.png'
+            img: '/store_images/oneplusnordce4.png'
         },
     ]
 
     const experience = [
         {
-            img: 'store_images/experience1.png',
+            img: '/store_images/experience1.png',
             header: 'Red Cable Club Members Benefits',
             info: 'Continuous exclusive benefits & events coming up for Red Cable Club members.',
         },
 
         {
-            img: 'store_images/experience2.png',
+            img: '/store_images/experience2.png',
             header: 'Referral Program',
             info: 'Refer your friends to get exclusive rewards',
         },
 
         {
-            img: 'store_images/experience3.png',
+            img: '/store_images/experience3.png',
             header: 'Student Program',
             info: 'Avail additional discounts on OnePlus devices, exclusively for students.',
         },
 
         {
-            img: 'store_images/experience4.png',
+            img: '/store_images/experience4.png',
             header: 'Video Commerce',
             info: 'Know more about pur products through on demand videos.',
         },
 
         {
-            img: 'store_images/experience5.png',
+            img: '/store_images/experience5.png',
             header: 'Easy Upgrades',
             info: 'Opt to upgrade your device for a new OnePlus flagship and get 35% Assured Value after 24 months.',
         },
 
         {
-            img: 'store_images/experience6.png',
+            img: '/store_images/experience6.png',
             header: 'Exchange Program',
             info: 'Check out how much your old device is worth and switch to the Fast and Smooth experience.',
         },
 
         {
-            img: 'store_images/experience7.png',
+            img: '/store_images/experience7.png',
             header: 'Fast & Free Delivery',
             info: 'Most orders will arrive within 3 days *.',
         },
 
         {
-            img: 'store_images/experience8.png',
+            img: '/store_images/experience8.png',
             header: 'OnePlus Customer Support',
             info: 'Welcome to the OnePlus chat support - Platform for all e-store related queries and services!.',
         }
@@ -364,7 +364,7 @@ const Store = () => {
             <ToastContainer />
 
             {theme ? <nav className='dark-nav flex py-3 px-4 items-center justify-between relative bg-black text-white'>
-                <div className="logo lg:px-2"><NavLink to="/"><img className='h-6 cursor-pointer' src="images/logo.svg" alt="" /></NavLink></div>
+                <div className="logo lg:px-2"><NavLink to="/"><img className='h-6 cursor-pointer' src="/images/logo.svg" alt="" /></NavLink></div>
 
                 <ul className='lg:flex lg:gap-7 hidden text-sm px-3'>
                     <li className='cursor-pointer'
@@ -564,7 +564,7 @@ const Store = () => {
                 </ul>
             </nav> :
                 <nav className='flex py-3 px-4 items-center justify-between relative'>
-                    <div className="logo lg:px-2"><NavLink to="/"><img className='h-6 cursor-pointer' src="images/logo.svg" alt="" /></NavLink></div>
+                    <div className="logo lg:px-2"><NavLink to="/"><img className='h-6 cursor-pointer' src="/images/logo.svg" alt="" /></NavLink></div>
 
                     <ul className='lg:flex lg:gap-7 hidden text-sm px-3'>
                         <li className='cursor-pointer'
@@ -922,7 +922,7 @@ const Store = () => {
                 </div>
 
                 <div className='Oneplus-Apex flex justify-center relative'>
-                    <img className='w-full h-[300px] md:h-auto md:w-[95%] relative cursor-pointer' src="store_images/oneplusapex.png" alt="Oneplus Apex" />
+                    <img className='w-full h-[300px] md:h-auto md:w-[95%] relative cursor-pointer' src="/store_images/oneplusapex.png" alt="Oneplus Apex" />
                     <h2 className='absolute text-white text-xl sm:text-3xl left-0 px-14 py-4'>OnePlus Open Apex Edition</h2>
                     <h3 className='absolute text-white text-xs sm:text-md left-0 px-14 py-14'>Available from August 10. Hit "Notify Me" to know more.</h3>
 
@@ -985,48 +985,48 @@ const Store = () => {
                     <div className="sale-container flex overflow-x-scroll scrollbar lg:overflow-hidden my-6 mx-0 md:mx-5">
 
                         {theme ? <div className="sale-card flex flex-col items-start mx-5 my-3 bg-[#1b1b1b] text-white rounded-xl h-auto min-w-[244px] md:w-full shadow-lg hover:shadow-black transition-all duration-300 ease-in cursor-pointer">
-                            <img className='hover:scale-90 transition-all duration-200 ease-in cursor-pointer' src="store_images/oneplusnordbuds.png" alt="" />
+                            <img className='hover:scale-90 transition-all duration-200 ease-in cursor-pointer' src="/store_images/oneplusnordbuds.png" alt="" />
                             <span className='text-red-500 text-xs md:text-sm px-4'>NEW  Up to 10% off</span>
                             <h2 className='text-md md:text-2xl px-4 py-3'>Nord Buds 3 Pro</h2>
                             <h3 className='px-4 py-5 text-sm lg:text-md'>From ₹3,299</h3>
                         </div> : <div className="sale-card flex flex-col items-start mx-5 my-3 bg-gray-100 h-auto min-w-[244px] md:w-full rounded-xl shadow-lg hover:shadow-black transition-all duration-300 ease-in cursor-pointer">
-                            <img src="store_images/oneplusnordbuds.png" alt="" />
+                            <img src="/store_images/oneplusnordbuds.png" alt="" />
                             <span className='text-red-500 text-xs md:text-sm px-4'>NEW  Up to 10% off</span>
                             <h2 className='text-md md:text-2xl px-4 py-3'>Nord Buds 3 Pro</h2>
                             <h3 className='px-4 py-5 text-sm lg:text-md'>From ₹3,299</h3>
                         </div>}
 
                         {theme ? <div className="sale-card flex flex-col items-start mx-5 my-3 bg-[#1b1b1b] text-white h-auto min-w-[244px] md:w-full rounded-xl shadow-lg hover:shadow-black transition-all duration-300 ease-in cursor-pointer">
-                            <img className='hover:scale-90 transition-all duration-200 ease-in cursor-pointer' src="store_images/onepluswatch2r.png" alt="" />
+                            <img className='hover:scale-90 transition-all duration-200 ease-in cursor-pointer' src="/store_images/onepluswatch2r.png" alt="" />
                             <span className='text-red-500 text-xs md:text-sm px-4'>NEW  Up to 10% off</span>
                             <h2 className='text-md md:text-2xl px-4 py-3'>OnePlus Watch 2R</h2>
                             <h3 className='px-4 py-5 text-sm lg:text-md'>From ₹17,999</h3>
                         </div> : <div className="sale-card flex flex-col items-start mx-5 my-3 bg-gray-100 h-auto min-w-[244px] md:w-full rounded-xl shadow-lg hover:shadow-black transition-all duration-300 ease-in cursor-pointer">
-                            <img src="store_images/onepluswatch2r.png" alt="" />
+                            <img src="/store_images/onepluswatch2r.png" alt="" />
                             <span className='text-red-500 text-xs md:text-sm px-4'>NEW  Up to 10% off</span>
                             <h2 className='text-md md:text-2xl px-4 py-3'>OnePlus Watch 2R</h2>
                             <h3 className='px-4 py-5 text-sm lg:text-md'>From ₹17,999</h3>
                         </div>}
 
                         {theme ? <div className="sale-card flex flex-col items-start mx-5 my-3 bg-[#1b1b1b] text-white h-auto min-w-[244px] md:w-full rounded-xl shadow-lg hover:shadow-black transition-all duration-300 ease-in cursor-pointer">
-                            <img className='hover:scale-90 transition-all duration-200 ease-in cursor-pointer'  src="store_images/oneplusopen.png" alt="" />
+                            <img className='hover:scale-90 transition-all duration-200 ease-in cursor-pointer'  src="/store_images/oneplusopen.png" alt="" />
                             <span className='text-red-500 text-xs md:text-sm px-4'>NEW  Up to 6% off</span>
                             <h2 className='text-md md:text-2xl px-4 py-3'>OnePlus Open</h2>
                             <h3 className='px-4 py-5 text-sm lg:text-md'>From ₹139,999</h3>
                         </div> : <div className="sale-card flex flex-col items-start mx-5 my-3 bg-gray-100 h-auto min-w-[244px] md:w-full rounded-xl shadow-lg hover:shadow-black transition-all duration-300 ease-in cursor-pointer">
-                            <img  src="store_images/oneplusopen.png" alt="" />
+                            <img  src="/store_images/oneplusopen.png" alt="" />
                             <span className='text-red-500 text-xs md:text-sm px-4'>NEW  Up to 6% off</span>
                             <h2 className='text-md md:text-2xl px-4 py-3'>OnePlus Open</h2>
                             <h3 className='px-4 py-5 text-sm lg:text-md'>From ₹139,999</h3>
                         </div>}
 
                         {theme ? <div className="sale-card flex flex-col items-start mx-5 my-3 bg-[#1b1b1b] text-white h-auto min-w-[244px] md:w-full rounded-xl shadow-lg hover:shadow-black transition-all duration-300 ease-in cursor-pointer">
-                            <img className='hover:scale-90 transition-all duration-200 ease-in cursor-pointer' src="store_images/oneplus11r.png" alt="" />
+                            <img className='hover:scale-90 transition-all duration-200 ease-in cursor-pointer' src="/store_images/oneplus11r.png" alt="" />
                             <span className='text-red-500 text-xs md:text-sm px-4'>NEW  Up to 10% off</span>
                             <h2 className='text-md md:text-2xl px-4 py-3'>OnePlus 11R 5G</h2>
                             <h3 className='px-4 py-5 text-sm lg:text-md'>From ₹35,999</h3>
                         </div> : <div className="sale-card flex flex-col items-start mx-5 my-3 bg-gray-100 h-auto min-w-[244px] md:w-full rounded-xl shadow-lg hover:shadow-black transition-all duration-300 ease-in cursor-pointer">
-                            <img src="store_images/oneplus11r.png" alt="" />
+                            <img src="/store_images/oneplus11r.png" alt="" />
                             <span className='text-red-500 text-xs md:text-sm px-4'>NEW  Up to 10% off</span>
                             <h2 className='text-md md:text-2xl px-4 py-3'>OnePlus 11R 5G</h2>
                             <h3 className='px-4 py-5 text-sm lg:text-md'>From ₹35,999</h3>
@@ -1045,17 +1045,17 @@ const Store = () => {
 
                     <div className="flex flex-wrap md:flex-nowrap justify-center xl:justify-stretch">
                         <div className='flex flex-col mx-4 items-center xl:items-start'>
-                            <img className='h-[260px] hover:scale-105 transition-all duration-200 ease-in cursor-pointer' src="images/phone.png" />
+                            <img className='h-[260px] hover:scale-105 transition-all duration-200 ease-in cursor-pointer' src="/images/phone.png" />
                             <h2 className='text-2xl'>OnePlus 12</h2>
                             <span className='text-sm pt-2'>Save more with exchange</span>
                         </div>
                         <div className='flex flex-col mx-4 items-center xl:items-start'>
-                            <img className='h-[260px] hover:scale-105 transition-all duration-200 ease-in cursor-pointer' src="images/phone2.png" />
+                            <img className='h-[260px] hover:scale-105 transition-all duration-200 ease-in cursor-pointer' src="/images/phone2.png" />
                             <h2 className='text-2xl'>OnePlus 12</h2>
                             <span className='text-sm pt-2'>Save more with exchange</span>
                         </div>
                         <div className='flex flex-col mx-4 items-center xl:items-start'>
-                            <img className='h-[260px] hover:scale-105 transition-all duration-200 ease-in cursor-pointer' src="store_images/oneplusopen.png" />
+                            <img className='h-[260px] hover:scale-105 transition-all duration-200 ease-in cursor-pointer' src="/store_images/oneplusopen.png" />
                             <h2 className='text-2xl'>OnePlus 12</h2>
                             <span className='text-sm pt-2'>Save more with exchange</span>
                         </div>
@@ -1072,13 +1072,13 @@ const Store = () => {
 
                             {theme ? <div className="sale-card rounded-xl flex flex-col pt-3 relative items-start mx-5 my-3 bg-[#1b1b1b] text-white h-auto min-w-[244px] md:w-full cursor-pointer">
                                 <FaRegHeart onClick={handleToast} className='absolute right-[10px] top-[10px] text-white hover:text-pink-500 transition-all duration-200 ease-in' style={{ fontSize: '18px' }} />
-                                <img className='hover:scale-90 transition-all duration-200 ease-in cursor-pointer' src="store_images/budspro2.png" alt="" />
+                                <img className='hover:scale-90 transition-all duration-200 ease-in cursor-pointer' src="/store_images/budspro2.png" alt="" />
                                 <span className='text-red-500 text-xs md:text-sm px-4'>Up to 39% off</span>
                                 <h2 className='text-md md:text-xl px-4 py-3'>OnePlus Buds Pro2</h2>
                                 <h3 className='px-4 py-5 text-sm lg:text-md'>From ₹8,499</h3>
                             </div> : <div className="sale-card rounded-xl flex flex-col pt-3 relative items-start mx-5 my-3 bg-gray-100 h-auto min-w-[244px] md:w-full shadow-lg hover:shadow-black transition-all duration-300 ease-in cursor-pointer">
                                 <FaRegHeart onClick={handleToast} className='absolute right-[10px] top-[10px] text-gray-600 hover:text-pink-500 transition-all duration-200 ease-in' style={{ fontSize: '18px' }} />
-                                <img src="store_images/budspro2.png" alt="" />
+                                <img src="/store_images/budspro2.png" alt="" />
                                 <span className='text-red-500 text-xs md:text-sm px-4'>Up to 39% off</span>
                                 <h2 className='text-md md:text-xl px-4 py-3'>OnePlus Buds Pro2</h2>
                                 <h3 className='px-4 py-5 text-sm lg:text-md'>From ₹8,499</h3>
@@ -1086,13 +1086,13 @@ const Store = () => {
 
                             {theme ? <div className="sale-card rounded-xl flex flex-col pt-3 relative items-start mx-5 my-3 bg-[#1b1b1b] text-white h-auto min-w-[244px] md:w-full cursor-pointer">
                                 <FaRegHeart onClick={handleToast} className='absolute right-[10px] top-[10px] text-white hover:text-pink-500 transition-all duration-200 ease-in' style={{ fontSize: '18px' }} />
-                                <img className='hover:scale-90 transition-all duration-200 ease-in cursor-pointer' src="store_images/nordbuds2.png" alt="" />
+                                <img className='hover:scale-90 transition-all duration-200 ease-in cursor-pointer' src="/store_images/nordbuds2.png" alt="" />
                                 <span className='text-red-500 text-xs md:text-sm px-4'>Up to 27% off</span>
                                 <h2 className='text-md md:text-xl px-4 py-3'>OnePlus Nord Buds 2</h2>
                                 <h3 className='px-4 py-5 text-sm lg:text-md'>From ₹2,399</h3>
                             </div> : <div className="sale-card rounded-xl flex flex-col pt-3 relative items-start mx-5 my-3 bg-gray-100 h-auto min-w-[244px] md:w-full shadow-lg hover:shadow-black transition-all duration-300 ease-in cursor-pointer">
                                 <FaRegHeart onClick={handleToast} className='absolute right-[10px] top-[10px] text-gray-600 hover:text-pink-500 transition-all duration-200 ease-in' style={{ fontSize: '18px' }} />
-                                <img src="store_images/nordbuds2.png" alt="" />
+                                <img src="/store_images/nordbuds2.png" alt="" />
                                 <span className='text-red-500 text-xs md:text-sm px-4'>Up to 27% off</span>
                                 <h2 className='text-md md:text-xl px-4 py-3'>OnePlus Nord Buds 2</h2>
                                 <h3 className='px-4 py-5 text-sm lg:text-md'>From ₹2,399</h3>
@@ -1100,13 +1100,13 @@ const Store = () => {
 
                             {theme ? <div className="sale-card rounded-xl flex flex-col pt-3 relative items-start mx-5 my-3 bg-[#1b1b1b] text-white h-auto min-w-[244px] md:w-full cursor-pointer">
                                 <FaRegHeart onClick={handleToast} className='absolute right-[10px] top-[10px] text-white hover:text-pink-500 transition-all duration-200 ease-in' style={{ fontSize: '18px' }} />
-                                <img className='hover:scale-90 transition-all duration-200 ease-in cursor-pointer' src="store_images/bulletsz2.png" alt="" />
+                                <img className='hover:scale-90 transition-all duration-200 ease-in cursor-pointer' src="/store_images/bulletsz2.png" alt="" />
                                 <span className='text-red-500 text-xs md:text-sm px-4'>Up to 39% off</span>
                                 <h2 className='text-md md:text-xl px-4 py-3'>OnePlus Bullets Wireless Z2</h2>
                                 <h3 className='px-4 py-5 text-sm lg:text-md'>From ₹1,399</h3>
                             </div> : <div className="sale-card rounded-xl flex flex-col pt-3 relative items-start mx-5 my-3 bg-gray-100 h-auto min-w-[244px] md:w-full shadow-lg hover:shadow-black transition-all duration-300 ease-in cursor-pointer">
                                 <FaRegHeart onClick={handleToast} className='absolute right-[10px] top-[10px] text-gray-600 hover:text-pink-500 transition-all duration-200 ease-in' style={{ fontSize: '18px' }} />
-                                <img src="store_images/bulletsz2.png" alt="" />
+                                <img src="/store_images/bulletsz2.png" alt="" />
                                 <span className='text-red-500 text-xs md:text-sm px-4'>Up to 39% off</span>
                                 <h2 className='text-md md:text-xl px-4 py-3'>OnePlus Bullets Wireless Z2</h2>
                                 <h3 className='px-4 py-5 text-sm lg:text-md'>From ₹1,399</h3>
@@ -1114,13 +1114,13 @@ const Store = () => {
 
                             {theme ? <div className="sale-card rounded-xl flex flex-col pt-3 relative items-start mx-5 my-3 bg-[#1b1b1b] text-white h-auto min-w-[244px] md:w-full cursor-pointer">
                                 <FaRegHeart onClick={handleToast} className='absolute right-[10px] top-[10px] text-white hover:text-pink-500 transition-all duration-200 ease-in' style={{ fontSize: '18px' }} />
-                                <img className='hover:scale-90 transition-all duration-200 ease-in cursor-pointer' src="store_images/nordwired.png" alt="" />
+                                <img className='hover:scale-90 transition-all duration-200 ease-in cursor-pointer' src="/store_images/nordwired.png" alt="" />
                                 <span className='text-red-500 text-xs md:text-sm px-4'>Up to 38% off</span>
                                 <h2 className='text-md md:text-xl px-4 py-3'>Nord Wired Earphones</h2>
                                 <h3 className='px-4 py-5 text-sm lg:text-md'>From ₹799</h3>
                             </div> : <div className="sale-card rounded-xl flex flex-col pt-3 relative items-start mx-5 my-3 bg-gray-100 h-auto min-w-[244px] md:w-full shadow-lg hover:shadow-black transition-all duration-300 ease-in cursor-pointer">
                                 <FaRegHeart onClick={handleToast} className='absolute right-[10px] top-[10px] text-gray-600 hover:text-pink-500 transition-all duration-200 ease-in' style={{ fontSize: '18px' }} />
-                                <img src="store_images/nordwired.png" alt="" />
+                                <img src="/store_images/nordwired.png" alt="" />
                                 <span className='text-red-500 text-xs md:text-sm px-4'>Up to 38% off</span>
                                 <h2 className='text-md md:text-xl px-4 py-3'>Nord Wired Earphones</h2>
                                 <h3 className='px-4 py-5 text-sm lg:text-md'>From ₹799</h3>
@@ -1137,13 +1137,13 @@ const Store = () => {
 
                             {theme ? <div className="sale-card rounded-xl flex flex-col pt-3 relative items-start mx-5 my-3 bg-[#1b1b1b] text-white h-auto min-w-[244px] md:w-full cursor-pointer">
                                 <FaRegHeart onClick={handleToast} className='absolute right-[10px] top-[10px] text-white hover:text-pink-500 transition-all duration-200 ease-in' style={{ fontSize: '18px' }} />
-                                <img className='hover:scale-90 transition-all duration-200 ease-in cursor-pointer' src="store_images/onepluspad.png" alt="" />
+                                <img className='hover:scale-90 transition-all duration-200 ease-in cursor-pointer' src="/store_images/onepluspad.png" alt="" />
                                 <span className='text-red-500 text-xs md:text-sm px-4'>Up to 5% off</span>
                                 <h2 className='text-md md:text-xl px-4 py-3'>OnePlus Pad</h2>
                                 <h3 className='px-4 py-5 text-sm lg:text-md'>From ₹35,999</h3>
                             </div> : <div className="sale-card rounded-xl flex flex-col pt-3 relative items-start mx-5 my-3 bg-gray-100 h-auto min-w-[244px] md:w-full shadow-lg hover:shadow-black transition-all duration-300 ease-in cursor-pointer">
                                 <FaRegHeart onClick={handleToast} className='absolute right-[10px] top-[10px] text-gray-600 hover:text-pink-500 transition-all duration-200 ease-in' style={{ fontSize: '18px' }} />
-                                <img src="store_images/onepluspad.png" alt="" />
+                                <img src="/store_images/onepluspad.png" alt="" />
                                 <span className='text-red-500 text-xs md:text-sm px-4'>Up to 5% off</span>
                                 <h2 className='text-md md:text-xl px-4 py-3'>OnePlus Pad</h2>
                                 <h3 className='px-4 py-5 text-sm lg:text-md'>From ₹35,999</h3>
@@ -1151,13 +1151,13 @@ const Store = () => {
 
                             {theme ? <div className="sale-card rounded-xl flex flex-col pt-3 relative items-start mx-5 my-3 bg-[#1b1b1b] text-white h-auto min-w-[244px] md:w-full cursor-pointer">
                                 <FaRegHeart onClick={handleToast} className='absolute right-[10px] top-[10px] text-white hover:text-pink-500 transition-all duration-200 ease-in' style={{ fontSize: '18px' }} />
-                                <img className='hover:scale-90 transition-all duration-200 ease-in cursor-pointer' src="store_images/magnectickeyboard.png" alt="" />
+                                <img className='hover:scale-90 transition-all duration-200 ease-in cursor-pointer' src="/store_images/magnectickeyboard.png" alt="" />
                                 <span className='text-red-500 text-xs md:text-sm px-4'>Up to 20% off</span>
                                 <h2 className='text-md md:text-xl px-4 py-3'>OnePlus Magnetic Keyboard</h2>
                                 <h3 className='px-4 py-5 text-sm lg:text-md'>From ₹7,999</h3>
                             </div> : <div className="sale-card rounded-xl flex flex-col pt-3 relative items-start mx-5 my-3 bg-gray-100 h-auto min-w-[244px] md:w-full shadow-lg hover:shadow-black transition-all duration-300 ease-in cursor-pointer">
                                 <FaRegHeart onClick={handleToast} className='absolute right-[10px] top-[10px] text-gray-600 hover:text-pink-500 transition-all duration-200 ease-in' style={{ fontSize: '18px' }} />
-                                <img src="store_images/magnectickeyboard.png" alt="" />
+                                <img src="/store_images/magnectickeyboard.png" alt="" />
                                 <span className='text-red-500 text-xs md:text-sm px-4'>Up to 20% off</span>
                                 <h2 className='text-md md:text-xl px-4 py-3'>OnePlus Magnetic Keyboard</h2>
                                 <h3 className='px-4 py-5 text-sm lg:text-md'>From ₹7,999</h3>
@@ -1165,13 +1165,13 @@ const Store = () => {
 
                             {theme ? <div className="sale-card rounded-xl flex flex-col pt-3 relative items-start mx-5 my-3 bg-[#1b1b1b] text-white h-auto min-w-[244px] md:w-full cursor-pointer">
                                 <FaRegHeart onClick={handleToast} className='absolute right-[10px] top-[10px] text-white hover:text-pink-500 transition-all duration-200 ease-in' style={{ fontSize: '18px' }} />
-                                <img className='hover:scale-90 transition-all duration-200 ease-in cursor-pointer' src="store_images/onepluspadgo.png" alt="" />
+                                <img className='hover:scale-90 transition-all duration-200 ease-in cursor-pointer' src="/store_images/onepluspadgo.png" alt="" />
                                 <span className='text-red-500 text-xs md:text-sm px-4'>Up to 10% off</span>
                                 <h2 className='text-md md:text-xl px-4 py-3'>OnePlus Pad Go</h2>
                                 <h3 className='px-4 py-5 text-sm lg:text-md'>From ₹17,999</h3>
                             </div> : <div className="sale-card rounded-xl flex flex-col pt-3 relative items-start mx-5 my-3 bg-gray-100 h-auto min-w-[244px] md:w-full shadow-lg hover:shadow-black transition-all duration-300 ease-in cursor-pointer">
                                 <FaRegHeart onClick={handleToast} className='absolute right-[10px] top-[10px] text-gray-600 hover:text-pink-500 transition-all duration-200 ease-in' style={{ fontSize: '18px' }} />
-                                <img src="store_images/onepluspadgo.png" alt="" />
+                                <img src="/store_images/onepluspadgo.png" alt="" />
                                 <span className='text-red-500 text-xs md:text-sm px-4'>Up to 10% off</span>
                                 <h2 className='text-md md:text-xl px-4 py-3'>OnePlus Pad Go</h2>
                                 <h3 className='px-4 py-5 text-sm lg:text-md'>From ₹17,999</h3>
@@ -1179,12 +1179,12 @@ const Store = () => {
 
                             {theme ? <div className="sale-card rounded-xl flex flex-col pt-3 relative items-start mx-5 my-3 bg-[#1b1b1b] text-white h-auto min-w-[244px] md:w-full cursor-pointer">
                                 <FaRegHeart onClick={handleToast} className='absolute right-[10px] top-[10px] text-white hover:text-pink-500 transition-all duration-200 ease-in' style={{ fontSize: '18px' }} />
-                                <img className='hover:scale-90 transition-all duration-200 ease-in cursor-pointer' src="store_images/foliocase.png" alt="" />
+                                <img className='hover:scale-90 transition-all duration-200 ease-in cursor-pointer' src="/store_images/foliocase.png" alt="" />
                                 <h2 className='text-md md:text-xl px-4 py-5'>OnePlus Go Folio Case</h2>
                                 <h3 className='px-4 py-5 text-sm lg:text-md'>From ₹1,399</h3>
                             </div> : <div className="sale-card rounded-xl flex flex-col pt-3 relative items-start mx-5 my-3 bg-gray-100 h-auto min-w-[244px] md:w-full shadow-lg hover:shadow-black transition-all duration-300 ease-in cursor-pointer">
                                 <FaRegHeart onClick={handleToast} className='absolute right-[10px] top-[10px] text-gray-600 hover:text-pink-500 transition-all duration-200 ease-in' style={{ fontSize: '18px' }} />
-                                <img src="store_images/foliocase.png" alt="" />
+                                <img src="/store_images/foliocase.png" alt="" />
                                 <h2 className='text-md md:text-xl px-4 py-5'>OnePlus Go Folio Case</h2>
                                 <h3 className='px-4 py-5 text-sm lg:text-md'>From ₹1,399</h3>
                             </div>}
@@ -1200,13 +1200,13 @@ const Store = () => {
 
                             {theme ? <div className="sale-card rounded-xl flex flex-col pt-3 relative items-start mx-5 my-3 bg-[#1b1b1b] text-white h-auto min-w-[244px] md:w-full cursor-pointer">
                                 <FaRegHeart onClick={handleToast} className='absolute right-[10px] top-[10px] text-white hover:text-pink-500 transition-all duration-200 ease-in' style={{ fontSize: '18px' }} />
-                                <img className='hover:scale-90 transition-all duration-200 ease-in cursor-pointer' src="store_images/walnutcase.png" alt="" />
+                                <img className='hover:scale-90 transition-all duration-200 ease-in cursor-pointer' src="/store_images/walnutcase.png" alt="" />
                                 <span className='text-red-500 text-xs md:text-sm px-4'>Up to 13% off</span>
                                 <h2 className='text-md md:text-xl px-4 py-3'>OnePlus 12 Walnut Texture Bumper Case</h2>
                                 <h3 className='px-4 py-5 text-sm lg:text-md'>From ₹1,299</h3>
                             </div> : <div className="sale-card rounded-xl flex flex-col pt-3 relative items-start mx-5 my-3 bg-gray-100 h-auto min-w-[244px] md:w-full shadow-lg hover:shadow-black transition-all duration-300 ease-in cursor-pointer">
                                 <FaRegHeart onClick={handleToast} className='absolute right-[10px] top-[10px] text-gray-600 hover:text-pink-500 transition-all duration-200 ease-in' style={{ fontSize: '18px' }} />
-                                <img src="store_images/walnutcase.png" alt="" />
+                                <img src="/store_images/walnutcase.png" alt="" />
                                 <span className='text-red-500 text-xs md:text-sm px-4'>Up to 13% off</span>
                                 <h2 className='text-md md:text-xl px-4 py-3'>OnePlus 12 Walnut Texture Bumper Case</h2>
                                 <h3 className='px-4 py-5 text-sm lg:text-md'>From ₹1,299</h3>
@@ -1214,13 +1214,13 @@ const Store = () => {
 
                             {theme ? <div className="sale-card rounded-xl flex flex-col pt-3 relative items-start mx-5 my-3 bg-[#1b1b1b] text-white h-auto min-w-[244px] md:w-full cursor-pointer">
                                 <FaRegHeart onClick={handleToast} className='absolute right-[10px] top-[10px] text-white hover:text-pink-500 transition-all duration-200 ease-in' style={{ fontSize: '18px' }} />
-                                <img className='hover:scale-90 transition-all duration-200 ease-in cursor-pointer' src="store_images/sandstonecase.png" alt="" />
+                                <img className='hover:scale-90 transition-all duration-200 ease-in cursor-pointer' src="/store_images/sandstonecase.png" alt="" />
                                 <span className='text-red-500 text-xs md:text-sm px-4'>Up to 20% off</span>
                                 <h2 className='text-md md:text-xl px-4 py-3'>OnePlus 12 Sandstone Bumper Case</h2>
                                 <h3 className='px-4 py-5 text-sm lg:text-md'>From ₹799</h3>
                             </div> : <div className="sale-card rounded-xl flex flex-col pt-3 relative items-start mx-5 my-3 bg-gray-100 h-auto min-w-[244px] md:w-full shadow-lg hover:shadow-black transition-all duration-300 ease-in cursor-pointer">
                                 <FaRegHeart onClick={handleToast} className='absolute right-[10px] top-[10px] text-gray-600 hover:text-pink-500 transition-all duration-200 ease-in' style={{ fontSize: '18px' }} />
-                                <img src="store_images/sandstonecase.png" alt="" />
+                                <img src="/store_images/sandstonecase.png" alt="" />
                                 <span className='text-red-500 text-xs md:text-sm px-4'>Up to 20% off</span>
                                 <h2 className='text-md md:text-xl px-4 py-3'>OnePlus 12 Sandstone Bumper Case</h2>
                                 <h3 className='px-4 py-5 text-sm lg:text-md'>From ₹799</h3>
@@ -1228,13 +1228,13 @@ const Store = () => {
 
                             {theme ? <div className="sale-card rounded-xl flex flex-col pt-3 relative items-start mx-5 my-3 bg-[#1b1b1b] text-white h-auto min-w-[244px] md:w-full cursor-pointer">
                                 <FaRegHeart onClick={handleToast} className='absolute right-[10px] top-[10px] text-white hover:text-pink-500 transition-all duration-200 ease-in' style={{ fontSize: '18px' }} />
-                                <img className='hover:scale-90 transition-all duration-200 ease-in cursor-pointer' src="store_images/adapter.png" alt="" />
+                                <img className='hover:scale-90 transition-all duration-200 ease-in cursor-pointer' src="/store_images/adapter.png" alt="" />
                                 <span className='text-red-500 text-xs md:text-sm px-4'>Up to 12% off</span>
                                 <h2 className='text-md md:text-xl px-4 py-3'>OnePlus 100W Dual Ports Power Adapter</h2>
                                 <h3 className='px-4 py-5 text-sm lg:text-md'>From ₹3,499</h3>
                             </div> : <div className="sale-card rounded-xl flex flex-col pt-3 relative items-start mx-5 my-3 bg-gray-100 h-auto min-w-[244px] md:w-full shadow-lg hover:shadow-black transition-all duration-300 ease-in cursor-pointer">
                                 <FaRegHeart onClick={handleToast} className='absolute right-[10px] top-[10px] text-gray-600 hover:text-pink-500 transition-all duration-200 ease-in' style={{ fontSize: '18px' }} />
-                                <img src="store_images/adapter.png" alt="" />
+                                <img src="/store_images/adapter.png" alt="" />
                                 <span className='text-red-500 text-xs md:text-sm px-4'>Up to 12% off</span>
                                 <h2 className='text-md md:text-xl px-4 py-3'>OnePlus 100W Dual Ports Power Adapter</h2>
                                 <h3 className='px-4 py-5 text-sm lg:text-md'>From ₹3,499</h3>
@@ -1242,12 +1242,12 @@ const Store = () => {
 
                             {theme ? <div className="sale-card rounded-xl flex flex-col pt-3 relative items-start mx-5 my-3 bg-[#1b1b1b] text-white h-auto min-w-[244px] md:w-full cursor-pointer">
                                 <FaRegHeart onClick={handleToast} className='absolute right-[10px] top-[10px] text-white hover:text-pink-500 transition-all duration-200 ease-in' style={{ fontSize: '18px' }} />
-                                <img className='hover:scale-90 transition-all duration-200 ease-in cursor-pointer' src="store_images/cable.png" alt="" />
+                                <img className='hover:scale-90 transition-all duration-200 ease-in cursor-pointer' src="/store_images/cable.png" alt="" />
                                 <h2 className='text-md md:text-xl px-4 py-5'>OnePlus USB-A to Type-C Cable 10A 1M</h2>
                                 <h3 className='px-4 py-5 text-sm lg:text-md'>From ₹849</h3>
                             </div> : <div className="sale-card rounded-xl flex flex-col pt-3 relative items-start mx-5 my-3 bg-gray-100 h-auto min-w-[244px] md:w-full shadow-lg hover:shadow-black transition-all duration-300 ease-in cursor-pointer">
                                 <FaRegHeart onClick={handleToast} className='absolute right-[10px] top-[10px] text-gray-600 hover:text-pink-500 transition-all duration-200 ease-in' style={{ fontSize: '18px' }} />
-                                <img src="store_images/cable.png" alt="" />
+                                <img src="/store_images/cable.png" alt="" />
                                 <h2 className='text-md md:text-xl px-4 py-5'>OnePlus USB-A to Type-C Cable 10A 1M</h2>
                                 <h3 className='px-4 py-5 text-sm lg:text-md'>From ₹849</h3>
                             </div>}
@@ -1344,7 +1344,7 @@ const Store = () => {
                                 </div>
                             </div>
 
-                            <img className='cursor-pointer sm:w-1/2 sm:hover:scale-110 scale-100 transition-all duration-200 ease-in' src="images/support1.png" alt="" />
+                            <img className='cursor-pointer sm:w-1/2 sm:hover:scale-110 scale-100 transition-all duration-200 ease-in' src="/images/support1.png" alt="" />
                         </div> : <div className="support-card overflow-hidden flex flex-col-reverse items-center sm:items-stretch sm:flex-row mx-3 h-[600px] sm:h-[400px] w-full sm:w-[650px] bg-gray-100 rounded-lg">
 
                             <div className="flex flex-col justify-between">
@@ -1359,7 +1359,7 @@ const Store = () => {
                                 </div>
                             </div>
 
-                            <img className='cursor-pointer sm:w-1/2 sm:hover:scale-110 scale-100 transition-all duration-200 ease-in' src="images/support1.png" alt="" />
+                            <img className='cursor-pointer sm:w-1/2 sm:hover:scale-110 scale-100 transition-all duration-200 ease-in' src="/images/support1.png" alt="" />
                         </div>}
 
                         {theme ? <div className="support-card overflow-hidden flex flex-col-reverse items-center sm:items-stretch sm:flex-row mx-3 mt-7 lg:mt-0 h-[600px] sm:h-[400px] w-full sm:w-[650px] relative bg-[#1b1b1b] text-white rounded-lg">
@@ -1376,7 +1376,7 @@ const Store = () => {
                                 </div>
                             </div>
 
-                            <img className='cursor-pointer sm:w-1/2 scale-100 sm:hover:scale-110 transition-all duration-200 ease-in' src="store_images/support3.png" alt="" />
+                            <img className='cursor-pointer sm:w-1/2 scale-100 sm:hover:scale-110 transition-all duration-200 ease-in' src="/store_images/support3.png" alt="" />
                         </div> : <div className="support-card overflow-hidden flex flex-col-reverse items-center sm:items-stretch sm:flex-row mx-3 mt-7 lg:mt-0 h-[600px] sm:h-[400px] w-full sm:w-[650px] relative bg-gray-100 rounded-lg">
 
                             <div className="flex flex-col justify-between">
@@ -1391,7 +1391,7 @@ const Store = () => {
                                 </div>
                             </div>
 
-                            <img className='cursor-pointer sm:w-1/2 scale-100 sm:hover:scale-110 transition-all duration-200 ease-in' src="store_images/support3.png" alt="" />
+                            <img className='cursor-pointer sm:w-1/2 scale-100 sm:hover:scale-110 transition-all duration-200 ease-in' src="/store_images/support3.png" alt="" />
                         </div>}
                     </div>
                     <hr className='h-[1px] bg-gray-300 w-[95%] mx-auto my-2' />
@@ -1415,7 +1415,7 @@ const Store = () => {
                     <hr className='h-[1px] bg-gray-300 w-[95%] mx-auto mb-7' />
                     <div className="connected-container flex flex-col lg:flex-row w-full px-3 items-center justify-around overflow-hidden ">
                         <div className="connected-card flex flex-col sm:flex-row items-center sm:items-stretch mx-3 my-3 lg:my-0 h-[300px] w-[430px] sm:w-[650px] bg-black rounded-lg relative">
-                            <img className='object-fill w-full h-full' src="images/connected1.png" alt="" />
+                            <img className='object-fill w-full h-full' src="/images/connected1.png" alt="" />
                             <h2 className='text-white text-2xl text-center sm:text-start w-full lg:text-3xl absolute sm:w-[60%] p-3'>Shop With Exclusive Benefits</h2>
                             <h2 className='text-gray-300 text-center w-full sm:text-start absolute py-14 lg:py-28 px-3'>Download OnePlus store app on Google Play</h2>
                             <button className='border border-gray-500 rounded-md hover:border-white transition-all duration-300 ease-in px-4 py-2 w-[70%] sm:w-1/2 absolute text-white bottom-0 my-6 mx-4'>Google Play
@@ -1423,7 +1423,7 @@ const Store = () => {
                         </div>
 
                         <div className="connected-card flex flex-col items-center sm:items-stretch lg:flex-row mx-3 my-3 lg:my-0 h-[300px] w-[430px] sm:w-[650px] bg-black rounded-lg relative">
-                            <img className='object-fill w-full h-full' src="images/connected2.png" alt="" />
+                            <img className='object-fill w-full h-full' src="/images/connected2.png" alt="" />
                             <h2 className='text-white text-center sm:text-start text-2xl lg:text-3xl absolute w-full sm:w-[60%] p-3'>Always be the first to know</h2>
                             <h2 className='text-gray-300 text-center sm:text-start w-full absolute py-14 lg:py-28 px-3'>Sign up for our newsletter!</h2>
                             <p className='text-xs w-full sm:w-1/2 text-center sm:text-start text-gray-400 absolute bottom-[75px] px-8 sm:px-3'>Subscribe to receive news, promotions and recommendations about OnePlus products and services from OnePlus, its agencies and partners.</p>

@@ -57,23 +57,23 @@ const Rating = () => {
                     <div className="stars flex gap-6 pt-6 pb-3 px-3 justify-center items-center">
                         <img
                             onMouseEnter={(e) => e.currentTarget.classList.add('yellow')}
-                            onMouseLeave={(e) => e.currentTarget.classList.remove('yellow')} className='star cursor-pointer hover:scale-110 transition-all duration-200 ease in' onClick={handleRating} src="store_images/star.svg" alt="star" />
+                            onMouseLeave={(e) => e.currentTarget.classList.remove('yellow')} className='star cursor-pointer hover:scale-110 transition-all duration-200 ease in' onClick={handleRating} src="/store_images/star.svg" alt="star" />
 
                         <img
                             onMouseEnter={(e) => e.currentTarget.classList.add('yellow2')}
-                            onMouseLeave={(e) => e.currentTarget.classList.remove('yellow2')} className='star cursor-pointer hover:scale-110 transition-all duration-200 ease in' onClick={handleRating} src="store_images/star.svg" alt="star" />
+                            onMouseLeave={(e) => e.currentTarget.classList.remove('yellow2')} className='star cursor-pointer hover:scale-110 transition-all duration-200 ease in' onClick={handleRating} src="/store_images/star.svg" alt="star" />
 
                         <img
                             onMouseEnter={(e) => e.currentTarget.classList.add('yellow3')}
-                            onMouseLeave={(e) => e.currentTarget.classList.remove('yellow3')} className='star cursor-pointer hover:scale-110 transition-all duration-200 ease in' onClick={handleRating} src="store_images/star.svg" alt="star" />
+                            onMouseLeave={(e) => e.currentTarget.classList.remove('yellow3')} className='star cursor-pointer hover:scale-110 transition-all duration-200 ease in' onClick={handleRating} src="/store_images/star.svg" alt="star" />
 
                         <img
                             onMouseEnter={(e) => e.currentTarget.classList.add('yellow4')}
-                            onMouseLeave={(e) => e.currentTarget.classList.remove('yellow4')} className='star cursor-pointer hover:scale-110 transition-all duration-200 ease in' onClick={handleRating} src="store_images/star.svg" alt="star" />
+                            onMouseLeave={(e) => e.currentTarget.classList.remove('yellow4')} className='star cursor-pointer hover:scale-110 transition-all duration-200 ease in' onClick={handleRating} src="/store_images/star.svg" alt="star" />
 
                         <img
                             onMouseEnter={(e) => e.currentTarget.classList.add('yellow5')}
-                            onMouseLeave={(e) => e.currentTarget.classList.remove('yellow5')} className='star cursor-pointer hover:scale-110 transition-all duration-200 ease in' onClick={handleRating} src="store_images/star.svg" alt="star" />
+                            onMouseLeave={(e) => e.currentTarget.classList.remove('yellow5')} className='star cursor-pointer hover:scale-110 transition-all duration-200 ease in' onClick={handleRating} src="/store_images/star.svg" alt="star" />
                     </div>
                     <div className="flex justify-between">
                         <span className='px-2 text-gray-500 text-sm'>Very Difficult</span>

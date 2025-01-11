@@ -19,91 +19,91 @@ import { LiaTimesSolid } from "react-icons/lia";
 // Navbar
 const storeitems = [
     {
-        img: 'images/phone.png',
+        img: '/images/phone.png',
         name: 'Phones',
     },
     {
-        img: 'images/tablet.png',
+        img: '/images/tablet.png',
         name: 'Tablet',
     },
     {
-        img: 'images/earphone.png',
+        img: '/images/earphone.png',
         name: 'Audio',
     },
     {
-        img: 'images/watch.png',
+        img: '/images/watch.png',
         name: 'Wearables',
     },
     {
-        img: 'images/cable.png',
+        img: '/images/cable.png',
         name: 'Power & Cables',
     },
     {
-        img: 'images/cases.png',
+        img: '/images/cases.png',
         name: 'Cases & Protection',
     },
 ]
 
 const phoneitems = [
     {
-        img: 'images/phone.png',
+        img: '/images/phone.png',
         name: 'OnePlus 12',
     },
     {
-        img: 'images/phone2.png',
+        img: '/images/phone2.png',
         name: 'OnePlus 12R',
     },
     {
-        img: 'images/phone3.png',
+        img: '/images/phone3.png',
         name: 'OnePlus Open',
     },
     {
-        img: 'images/phone4.png',
+        img: '/images/phone4.png',
         name: 'OnePlus 11R 5G',
     },
 ]
 
 const phoneitems2 = [
     {
-        img: 'images/phone5.png',
+        img: '/images/phone5.png',
         name: 'OnePlus Nord 4',
     },
     {
-        img: 'images/phone6.png',
+        img: '/images/phone6.png',
         name: 'OnePlus Nord CE4 Lite 5G',
     },
     {
-        img: 'images/phone7.png',
+        img: '/images/phone7.png',
         name: 'OnePlus Nord CE4',
     },
 ]
 
 const tabletitems = [
     {
-        img: 'images/tab.png',
+        img: '/images/tab.png',
         name: 'OnePlus Pad 2',
     },
     {
-        img: 'images/tab2.png',
+        img: '/images/tab2.png',
         name: 'OnePlus Pad',
     },
     {
-        img: 'images/tab3.png',
+        img: '/images/tab3.png',
         name: 'OnePlus Pad Go',
     },
     {
-        img: 'images/tab4.png',
+        img: '/images/tab4.png',
         name: 'Tablet Accessories',
     },
 ]
 
 const watchitems = [
     {
-        img: 'images/watch2.png',
+        img: '/images/watch2.png',
         name: 'OnePlus Watch 2R',
     },
     {
-        img: 'images/watch3.png',
+        img: '/images/watch3.png',
         name: 'OnePlus Watch 2',
     }
 ]
@@ -111,13 +111,13 @@ const watchitems = [
 const data = [
     {
         number: '1',
-        img: 'images/oneplusnordce.png',
+        img: '/images/oneplusnordce.png',
         name: 'OnePlus Nord CE4 Lite 5G',
         msg: 'Starting from ₹6,666/ month, with No Cost EMI'
     },
     {
         number: '2',
-        img: 'images/oneplusnordce2.png',
+        img: '/images/oneplusnordce2.png',
         name: 'OnePlus Nord CE4 Lite 5G - Ultra Orange',
         msg: 'From ₹17,999 Incl. Bank Discount and ₹250 OFF addtional student discount'
     },
@@ -126,27 +126,27 @@ const data = [
 const Products = [
     {
         name: 'OnePlus Nord Buds 3 Pro',
-        img: 'images/earbuds.png',
+        img: '/images/earbuds.png',
     },
     {
         name: 'OnePlus Watch 2R',
-        img: 'images/watch2r.png',
+        img: '/images/watch2r.png',
     },
     {
         name: 'OnePlus Pad 2',
-        img: 'images/onepluspad2.png',
+        img: '/images/onepluspad2.png',
     },
     {
         name: 'OnePlus 12',
-        img: 'images/oneplus12.png',
+        img: '/images/oneplus12.png',
     },
     {
         name: 'OnePlus Nord CE4',
-        img: 'images/oneplusnordce4.png',
+        img: '/images/oneplusnordce4.png',
     },
     {
         name: 'OnePlus Open',
-        img: 'images/oneplusopen.png',
+        img: '/images/oneplusopen.png',
     },
 ]
 
@@ -258,7 +258,7 @@ const Home = () => {
     return (
         <>
             {theme ? <nav className='dark-nav flex py-3 px-4 items-center justify-between relative bg-black text-white'>
-                <div className="logo lg:px-2"><NavLink to="/"><img className='h-6 cursor-pointer' src="images/logo.svg" alt="" /></NavLink></div>
+                <div className="logo lg:px-2"><NavLink to="/"><img className='h-6 cursor-pointer' src="/images/logo.svg" alt="" /></NavLink></div>
 
                 <ul className='lg:flex lg:gap-7 hidden text-sm px-3'>
                     <li className='cursor-pointer'
@@ -458,7 +458,7 @@ const Home = () => {
                 </ul>
             </nav> :
                 <nav className='flex py-3 px-4 items-center justify-between relative'>
-                    <div className="logo lg:px-2"><NavLink to="/"><img className='h-6 cursor-pointer' src="images/logo.svg" alt="" /></NavLink></div>
+                    <div className="logo lg:px-2"><NavLink to="/"><img className='h-6 cursor-pointer' src="/images/logo.svg" alt="" /></NavLink></div>
 
                     <ul className='lg:flex lg:gap-7 hidden text-sm px-3'>
                         <li className='cursor-pointer'
@@ -804,7 +804,7 @@ const Home = () => {
                 <div className="header flex flex-col items-center relative z-0 w-full overflow-hidden">
                     <span className='text-white absolute text-xl py-5'>Pedal to the Metal</span>
                     <h2 className='text-white text-4xl lg:text-5xl absolute py-14 font-bold'>OnePlus Nord 4</h2>
-                    <NavLink className='w-full' to="/phone" target='_blank'><img className='w-full h-[700px] cursor-pointer' src="images/intro.png" alt="" /></NavLink>
+                    <NavLink className='w-full' to="/phone" target='_blank'><img className='w-full h-[700px] cursor-pointer' src="/images/intro.png" alt="" /></NavLink>
                     <div className="flex flex-col text-white absolute bottom-0 items-center px-2 py-3">
                         <p className='text-sm md:text-lg px-4'>Sale is live! From ₹28,999 Avail Special Pre Order Discount of ₹1000. Avail Instant Bank Discount of ₹3000.</p>
                         <div className="flex w-full items-center justify-center gap-4">
@@ -816,7 +816,7 @@ const Home = () => {
 
                 <div ref={ref} className='oneplus12r my-5 w-full'>
                     {theme ? <div className="flex flex-col lg:flex-row items-center rounded-xl mx-4 mb-14 bg-[#1b1b1b] text-white">
-                        <img className='md:w-[45%]' src="images/oneplus12r.png" alt="" />
+                        <img className='md:w-[45%]' src="/images/oneplus12r.png" alt="" />
                         <motion.div
                             variants={{
                                 hidden: { opacity: 0, y: 75 },
@@ -834,7 +834,7 @@ const Home = () => {
                             </div>
                         </motion.div>
                     </div> : <div className="flex flex-col lg:flex-row items-center rounded-xl mx-4 mb-14 shadow-lg shadow-black">
-                        <img className='md:w-[45%]' src="images/oneplus12r.png" alt="" />
+                        <img className='md:w-[45%]' src="/images/oneplus12r.png" alt="" />
                         <motion.div
                             variants={{
                                 hidden: { opacity: 0, y: 75 },
@@ -869,7 +869,7 @@ const Home = () => {
                                 <span className='text-xs underline cursor-pointer hover:text-blue-400'>Learn more</span>
                             </div>
                         </motion.div>
-                        <img className='lg:w-[60%] lg:ml-5 ml-0' src="images/oneplus12r2.png" alt="" />
+                        <img className='lg:w-[60%] lg:ml-5 ml-0' src="/images/oneplus12r2.png" alt="" />
                     </div> : <div className="flex flex-col-reverse lg:flex-row items-center mx-4 lg:py-4 rounded-xl shadow-lg shadow-black">
                         <motion.div
                             variants={{
@@ -886,7 +886,7 @@ const Home = () => {
                                 <span className='text-xs underline cursor-pointer hover:text-blue-400'>Learn more</span>
                             </div>
                         </motion.div>
-                        <img className='lg:w-[60%] mx-5' src="images/oneplus12r2.png" alt="" />
+                        <img className='lg:w-[60%] mx-5' src="/images/oneplus12r2.png" alt="" />
                     </div>}
                 </div>
 
@@ -1065,7 +1065,7 @@ const Home = () => {
                     <h1 className='text-xl lg:text-3xl px-10 py-10'>Relentless innovation defines who we are.</h1>
                     <div className="flex flex-col lg:flex-row w-full justify-center">
                         <div className='flex flex-col items-baseline justify-center gap-5 relative ml-5'>
-                            <img className='relative cursor-pointer' src="images/oxygenos.png" alt="oxygenos" />
+                            <img className='relative cursor-pointer' src="/images/oxygenos.png" alt="oxygenos" />
                             <h3 className='absolute top-0 text-white text-lg pt-4 px-3'>OxygenOS 14</h3>
                             <h2 className='absolute text-white top-0 py-14 text-2xl sm:text-4xl px-3'>Evolved to Exceed</h2>
                         </div>
@@ -1089,7 +1089,7 @@ const Home = () => {
                             </div>
                         </div>
 
-                        <img className='cursor-pointer w-full lg:w-[60%]' src="images/photography.png" alt="photography" />
+                        <img className='cursor-pointer w-full lg:w-[60%]' src="/images/photography.png" alt="photography" />
                     </div>
                 </div> : <div className='onetopia-container my-7 w-full lg:w-[95%] overflow-hidden'>
                     <h2 className='text-xl px-10'>OneTopia</h2>
@@ -1097,7 +1097,7 @@ const Home = () => {
                     <h1 className='text-xl lg:text-3xl px-10 py-10'>Relentless innovation defines who we are.</h1>
                     <div className="flex flex-col lg:flex-row w-full">
                         <div className='flex flex-col items-baseline justify-center gap-5 relative ml-5'>
-                            <img className='relative cursor-pointer' src="images/oxygenos.png" alt="oxygenos" />
+                            <img className='relative cursor-pointer' src="/images/oxygenos.png" alt="oxygenos" />
                             <h3 className='absolute top-0 text-white text-lg pt-4 px-3'>OxygenOS 14</h3>
                             <h2 className='absolute text-white top-0 py-14 text-2xl sm:text-4xl px-3'>Evolved to Exceed</h2>
                         </div>
@@ -1121,7 +1121,7 @@ const Home = () => {
                             </div>
                         </div>
 
-                        <img className='cursor-pointer w-full lg:w-[60%]' src="images/photography.png" alt="photography" />
+                        <img className='cursor-pointer w-full lg:w-[60%]' src="/images/photography.png" alt="photography" />
                     </div>
                 </div>}
 
@@ -1147,7 +1147,7 @@ const Home = () => {
                                 </div>
                             </div>
 
-                            <img className='cursor-pointer sm:w-1/2 scale-100 sm:hover:scale-110 transition-all duration-200 ease-in' src="images/support1.png" alt="" />
+                            <img className='cursor-pointer sm:w-1/2 scale-100 sm:hover:scale-110 transition-all duration-200 ease-in' src="/images/support1.png" alt="" />
                         </div>
                         <div className="support-card overflow-hidden flex flex-col-reverse items-center sm:items-stretch sm:flex-row mx-3 mt-7 lg:mt-0 h-[600px] sm:h-[400px] w-full sm:w-[650px] relative bg-[#1b1b1b] text-white rounded-lg">
 
@@ -1163,7 +1163,7 @@ const Home = () => {
                                 </div>
                             </div>
 
-                            <img className='cursor-pointer sm:w-1/2 scale-100 sm:hover:scale-110 transition-all duration-200 ease-in' src="images/support2.png" alt="" />
+                            <img className='cursor-pointer sm:w-1/2 scale-100 sm:hover:scale-110 transition-all duration-200 ease-in' src="/images/support2.png" alt="" />
                         </div>
                     </div>
                     <hr className='h-[1px] bg-gray-300 w-[95%] mx-auto my-2' />
@@ -1202,7 +1202,7 @@ const Home = () => {
                                 </div>
                             </div>
 
-                            <img className='cursor-pointer sm:w-1/2 scale-100 sm:hover:scale-110 transition-all duration-200 ease-in' src="images/support1.png" alt="" />
+                            <img className='cursor-pointer sm:w-1/2 scale-100 sm:hover:scale-110 transition-all duration-200 ease-in' src="/images/support1.png" alt="" />
                         </div>
                         <div className="support-card overflow-hidden flex flex-col-reverse items-center sm:items-stretch sm:flex-row mx-3 mt-7 lg:mt-0 h-[600px] sm:h-[400px] w-full sm:w-[650px] relative bg-gray-100 rounded-lg">
 
@@ -1218,7 +1218,7 @@ const Home = () => {
                                 </div>
                             </div>
 
-                            <img className='cursor-pointer sm:w-1/2 scale-100 sm:hover:scale-110 transition-all duration-200 ease-in' src="images/support2.png" alt="" />
+                            <img className='cursor-pointer sm:w-1/2 scale-100 sm:hover:scale-110 transition-all duration-200 ease-in' src="/images/support2.png" alt="" />
                         </div>
                     </div>
                     <hr className='h-[1px] bg-gray-300 w-[95%] mx-auto my-2' />
@@ -1242,7 +1242,7 @@ const Home = () => {
                     <hr className='h-[1px] bg-gray-300 w-[95%] mx-auto mb-7' />
                     <div className="connected-container flex flex-col lg:flex-row w-full px-3 items-center justify-around overflow-hidden ">
                         <div className="connected-card flex flex-col sm:flex-row items-center sm:items-stretch mx-3 my-3 lg:my-0 h-[300px] w-[430px] sm:w-[650px] bg-black rounded-lg relative">
-                            <img className='object-fill w-full h-full' src="images/connected1.png" alt="" />
+                            <img className='object-fill w-full h-full' src="/images/connected1.png" alt="" />
                             <h2 className='text-white text-2xl text-center sm:text-start w-full lg:text-3xl absolute sm:w-[60%] p-3'>Shop With Exclusive Benefits</h2>
                             <h2 className='text-gray-300 text-center w-full sm:text-start absolute py-14 lg:py-28 px-3'>Download OnePlus store app on Google Play</h2>
                             <button className='border border-gray-500 rounded-md hover:border-white transition-all duration-300 ease-in px-4 py-2 w-[70%] sm:w-1/2 absolute text-white bottom-0 my-6 mx-4'>Google Play
@@ -1250,7 +1250,7 @@ const Home = () => {
                         </div>
 
                         <div className="connected-card flex flex-col items-center sm:items-stretch lg:flex-row mx-3 my-3 lg:my-0 h-[300px] w-[430px] sm:w-[650px] bg-black rounded-lg relative">
-                            <img className='object-fill w-full h-full' src="images/connected2.png" alt="" />
+                            <img className='object-fill w-full h-full' src="/images/connected2.png" alt="" />
                             <h2 className='text-white text-center sm:text-start text-2xl lg:text-3xl absolute w-full sm:w-[60%] p-3'>Always be the first to know</h2>
                             <h2 className='text-gray-300 text-center sm:text-start w-full absolute py-14 lg:py-28 px-3'>Sign up for our newsletter!</h2>
                             <p className='text-xs w-full sm:w-1/2 text-center sm:text-start text-gray-400 absolute bottom-[75px] px-8 sm:px-3'>Subscribe to receive news, promotions and recommendations about OnePlus products and services from OnePlus, its agencies and partners.</p>

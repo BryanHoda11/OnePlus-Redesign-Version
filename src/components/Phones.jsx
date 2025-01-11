@@ -22,91 +22,91 @@ import { RxHamburgerMenu } from "react-icons/rx";
 // Navbar
 const storeitems = [
   {
-    img: 'images/phone.png',
+    img: '/images/phone.png',
     name: 'Phones',
   },
   {
-    img: 'images/tablet.png',
+    img: '/images/tablet.png',
     name: 'Tablet',
   },
   {
-    img: 'images/earphone.png',
+    img: '/images/earphone.png',
     name: 'Audio',
   },
   {
-    img: 'images/watch.png',
+    img: '/images/watch.png',
     name: 'Wearables',
   },
   {
-    img: 'images/cable.png',
+    img: '/images/cable.png',
     name: 'Power & Cables',
   },
   {
-    img: 'images/cases.png',
+    img: '/images/cases.png',
     name: 'Cases & Protection',
   },
 ]
 
 const phoneitems = [
   {
-    img: 'images/phone.png',
+    img: '/images/phone.png',
     name: 'OnePlus 12',
   },
   {
-    img: 'images/phone2.png',
+    img: '/images/phone2.png',
     name: 'OnePlus 12R',
   },
   {
-    img: 'images/phone3.png',
+    img: '/images/phone3.png',
     name: 'OnePlus Open',
   },
   {
-    img: 'images/phone4.png',
+    img: '/images/phone4.png',
     name: 'OnePlus 11R 5G',
   },
 ]
 
 const phoneitems2 = [
   {
-    img: 'images/phone5.png',
+    img: '/images/phone5.png',
     name: 'OnePlus Nord 4',
   },
   {
-    img: 'images/phone6.png',
+    img: '/images/phone6.png',
     name: 'OnePlus Nord CE4 Lite 5G',
   },
   {
-    img: 'images/phone7.png',
+    img: '/images/phone7.png',
     name: 'OnePlus Nord CE4',
   },
 ]
 
 const tabletitems = [
   {
-    img: 'images/tab.png',
+    img: '/images/tab.png',
     name: 'OnePlus Pad 2',
   },
   {
-    img: 'images/tab2.png',
+    img: '/images/tab2.png',
     name: 'OnePlus Pad',
   },
   {
-    img: 'images/tab3.png',
+    img: '/images/tab3.png',
     name: 'OnePlus Pad Go',
   },
   {
-    img: 'images/tab4.png',
+    img: '/images/tab4.png',
     name: 'Tablet Accessories',
   },
 ]
 
 const watchitems = [
   {
-    img: 'images/watch2.png',
+    img: '/images/watch2.png',
     name: 'OnePlus Watch 2R',
   },
   {
-    img: 'images/watch3.png',
+    img: '/images/watch3.png',
     name: 'OnePlus Watch 2',
   }
 ]
@@ -232,7 +232,7 @@ const Phones = () => {
       <ToastContainer />
 
       {theme ? <nav className='dark-nav flex py-3 px-4 items-center justify-between relative bg-black text-white'>
-        <div className="logo lg:px-2"><NavLink to="/"><img className='h-6 cursor-pointer' src="images/logo.svg" alt="" /></NavLink></div>
+        <div className="logo lg:px-2"><NavLink to="/"><img className='h-6 cursor-pointer' src="/images/logo.svg" alt="" /></NavLink></div>
 
         <ul className='lg:flex lg:gap-7 hidden text-sm px-3'>
           <li className='cursor-pointer'
@@ -432,7 +432,7 @@ const Phones = () => {
         </ul>
       </nav> :
         <nav className='flex py-3 px-4 items-center justify-between relative'>
-          <div className="logo lg:px-2"><NavLink to="/"><img className='h-6 cursor-pointer' src="images/logo.svg" alt="" /></NavLink></div>
+          <div className="logo lg:px-2"><NavLink to="/"><img className='h-6 cursor-pointer' src="/images/logo.svg" alt="" /></NavLink></div>
 
           <ul className='lg:flex lg:gap-7 hidden text-sm px-3'>
             <li className='cursor-pointer'
@@ -1008,13 +1008,13 @@ const Phones = () => {
                 {theme ? <div className="card1 rounded-xl flex flex-col items-start mx-3 my-3 bg-[#1b1b1b] text-white h-auto min-w-[244px] md:w-full cursor-pointer relative">
                   <span className='text-red-500 text-xs md:text-sm px-4 absolute pt-2 font-bold'>New</span>
                   <FaRegHeart onClick={handleToast} className='absolute right-[10px] top-[10px] text-white hover:text-pink-500 transition-all duration-200 ease-in' style={{ fontSize: '18px' }} />
-                  <img className='hover:scale-90 transition-all duration-200 ease-in cursor-pointer' src="phones_images/oneplusnord4.png" alt="" />
+                  <img className='hover:scale-90 transition-all duration-200 ease-in cursor-pointer' src="phones_/images/oneplusnord4.png" alt="" />
                   <h2 className='text-md md:text-xl px-4 py-3'>OnePlus Nord 4</h2>
                   <h3 className='px-3 py-5 text-sm lg:text-md flex items-center gap-3 absolute bottom-0'><FiShoppingCart /> From ₹29,999 </h3>
                 </div> : <div className="card1 rounded-xl flex flex-col items-start mx-3 my-3 bg-gray-100 h-auto min-w-[244px] md:w-full shadow-lg hover:shadow-black transition-all duration-300 ease-in cursor-pointer relative">
                   <span className='text-red-500 text-xs md:text-sm px-4 absolute pt-2 font-bold'>New</span>
                   <FaRegHeart onClick={handleToast} className='absolute right-[10px] top-[10px] text-gray-600 hover:text-pink-500 transition-all duration-200 ease-in' style={{ fontSize: '18px' }} />
-                  <img src="phones_images/oneplusnord4.png" alt="" />
+                  <img src="phones_/images/oneplusnord4.png" alt="" />
                   <h2 className='text-md md:text-xl px-4 py-3'>OnePlus Nord 4</h2>
                   <h3 className='px-3 py-5 text-sm lg:text-md flex items-center gap-3 absolute bottom-0'><FiShoppingCart /> From ₹29,999 </h3>
                 </div>}
@@ -1022,14 +1022,14 @@ const Phones = () => {
                 {theme ? <div className="card1 rounded-xl flex flex-col items-start mx-3 my-3 bg-[#1b1b1b] text-white h-auto min-w-[244px] md:w-full cursor-pointer relative">
                   <FaRegHeart onClick={handleToast} className='absolute right-[10px] top-[10px] text-white hover:text-pink-500 transition-all duration-200 ease-in' style={{ fontSize: '18px' }} />
                   <span className='text-red-500 text-xs md:text-sm px-4 absolute pt-2 font-bold'>New</span>
-                  <img className='hover:scale-90 transition-all duration-200 ease-in cursor-pointer' src="store_images/oneplusopen.png" alt="" />
+                  <img className='hover:scale-90 transition-all duration-200 ease-in cursor-pointer' src="store_/images/oneplusopen.png" alt="" />
                   <h2 className='text-md md:text-xl px-4 py-3'>OnePlus Open</h2>
                   <span className='text-red-500 text-xs md:text-sm px-4'>6% off</span>
                   <h3 className='px-4 py-5 text-sm lg:text-md flex items-center gap-3'><FiShoppingCart /> From ₹139,999 <span className='text-xs text-gray-500 line-through'>₹149,999</span></h3>
                 </div> : <div className="card1 rounded-xl flex flex-col items-start mx-3 my-3 bg-gray-100 h-auto min-w-[244px] md:w-full shadow-lg hover:shadow-black transition-all duration-300 ease-in cursor-pointer relative">
                   <FaRegHeart onClick={handleToast} className='absolute right-[10px] top-[10px] text-gray-600 hover:text-pink-500 transition-all duration-200 ease-in' style={{ fontSize: '18px' }} />
                   <span className='text-red-500 text-xs md:text-sm px-4 absolute pt-2 font-bold'>New</span>
-                  <img src="store_images/oneplusopen.png" alt="" />
+                  <img src="store_/images/oneplusopen.png" alt="" />
                   <h2 className='text-md md:text-xl px-4 py-3'>OnePlus Open</h2>
                   <span className='text-red-500 text-xs md:text-sm px-4'>6% off</span>
                   <h3 className='px-4 py-5 text-sm lg:text-md flex items-center gap-3'><FiShoppingCart /> From ₹139,999 <span className='text-xs text-gray-500 line-through'>₹149,999</span></h3>
@@ -1038,13 +1038,13 @@ const Phones = () => {
                 {theme ? <div className="card1 rounded-xl flex flex-col items-start mx-3 my-3 bg-[#1b1b1b] text-white h-auto min-w-[244px] md:w-full cursor-pointer relative">
                   <FaRegHeart onClick={handleToast} className='absolute right-[10px] top-[10px] text-white hover:text-pink-500 transition-all duration-200 ease-in' style={{ fontSize: '18px' }} />
                   <span className='text-red-500 text-xs md:text-sm px-4 absolute pt-2 font-bold'>New</span>
-                  <img className='hover:scale-90 transition-all duration-200 ease-in cursor-pointer' src="store_images/oneplus11r.png" alt="" />
+                  <img className='hover:scale-90 transition-all duration-200 ease-in cursor-pointer' src="store_/images/oneplus11r.png" alt="" />
                   <h2 className='text-md md:text-xl px-4 py-3'>OnePlus 11R 5G</h2>
                   <h3 className='px-4 py-5 text-sm lg:text-md flex items-center gap-3 absolute bottom-0'><FiShoppingCart /> From ₹44,999</h3>
                 </div> : <div className="card1 rounded-xl flex flex-col items-start mx-3 my-3 bg-gray-100 h-auto min-w-[244px] md:w-full shadow-lg hover:shadow-black transition-all duration-300 ease-in cursor-pointer relative">
                   <FaRegHeart onClick={handleToast} className='absolute right-[10px] top-[10px] text-gray-600 hover:text-pink-500 transition-all duration-200 ease-in' style={{ fontSize: '18px' }} />
                   <span className='text-red-500 text-xs md:text-sm px-4 absolute pt-2 font-bold'>New</span>
-                  <img src="store_images/oneplus11r.png" alt="" />
+                  <img src="store_/images/oneplus11r.png" alt="" />
                   <h2 className='text-md md:text-xl px-4 py-3'>OnePlus 11R 5G</h2>
                   <h3 className='px-4 py-5 text-sm lg:text-md flex items-center gap-3 absolute bottom-0'><FiShoppingCart /> From ₹44,999</h3>
                 </div>}
@@ -1053,13 +1053,13 @@ const Phones = () => {
               <div className="container2 flex xl:overflow-hidden overflow-x-scroll py-4 scrollbar mt-6">
                 {theme ? <div className="card2 rounded-xl flex flex-col items-start mx-3 my-3 bg-[#1b1b1b] text-white h-auto min-w-[244px] md:w-full cursor-pointer relative">
                   <FaRegHeart onClick={handleToast} className='absolute right-[10px] top-[10px] text-white hover:text-pink-500 transition-all duration-200 ease-in' style={{ fontSize: '18px' }} />
-                  <img className='hover:scale-90 transition-all duration-200 ease-in cursor-pointer' src="images/phone2.png" alt="" />
+                  <img className='hover:scale-90 transition-all duration-200 ease-in cursor-pointer' src="/images/phone2.png" alt="" />
                   <h2 className='text-md md:text-xl px-4 py-3'>OnePlus 12R</h2>
                   <span className='text-red-500 text-xs md:text-sm px-4'>Up to 2% off</span>
                   <h3 className='px-3 py-5 text-sm lg:text-md flex items-center gap-3 absolute bottom-0'><FiShoppingCart /> From ₹39,999 <span className='text-xs text-gray-500 line-through'>₹42,999</span></h3>
                 </div> : <div className="card2 rounded-xl flex flex-col items-start mx-3 my-3 bg-gray-100 h-auto min-w-[244px] md:w-full shadow-lg hover:shadow-black transition-all duration-300 ease-in cursor-pointer relative">
                   <FaRegHeart onClick={handleToast} className='absolute right-[10px] top-[10px] text-gray-600 hover:text-pink-500 transition-all duration-200 ease-in' style={{ fontSize: '18px' }} />
-                  <img src="images/phone2.png" alt="" />
+                  <img src="/images/phone2.png" alt="" />
                   <h2 className='text-md md:text-xl px-4 py-3'>OnePlus 12R</h2>
                   <span className='text-red-500 text-xs md:text-sm px-4'>Up to 2% off</span>
                   <h3 className='px-3 py-5 text-sm lg:text-md flex items-center gap-3 absolute bottom-0'><FiShoppingCart /> From ₹39,999 <span className='text-xs text-gray-500 line-through'>₹42,999</span></h3>
@@ -1068,14 +1068,14 @@ const Phones = () => {
                 {theme ? <div className="card2 rounded-xl flex flex-col items-start mx-3 my-3 bg-[#1b1b1b] text-white h-auto min-w-[244px] md:w-full cursor-pointer relative">
                   <FaRegHeart onClick={handleToast} className='absolute right-[10px] top-[10px] text-white hover:text-pink-500 transition-all duration-200 ease-in' style={{ fontSize: '18px' }} />
                   <span className='text-red-500 text-xs md:text-sm px-4 absolute pt-2 font-bold'>New</span>
-                  <img className='hover:scale-90 transition-all duration-200 ease-in cursor-pointer' src="phones_images/oneplusnordce4.png" alt="" />
+                  <img className='hover:scale-90 transition-all duration-200 ease-in cursor-pointer' src="phones_/images/oneplusnordce4.png" alt="" />
                   <h2 className='text-md md:text-xl px-4 py-3'>OnePlus Nord CE4 Lite 5G</h2>
                   <span className='text-red-500 text-xs md:text-sm px-4'>4% off</span>
                   <h3 className='px-4 py-5 text-sm lg:text-md flex items-center gap-3'><FiShoppingCart /> From ₹19,999 <span className='text-xs text-gray-500 line-through'>₹20,999</span></h3>
                 </div> : <div className="card2 rounded-xl flex flex-col items-start mx-3 my-3 bg-gray-100 h-auto min-w-[244px] md:w-full shadow-lg hover:shadow-black transition-all duration-300 ease-in cursor-pointer relative">
                   <FaRegHeart onClick={handleToast} className='absolute right-[10px] top-[10px] text-gray-600 hover:text-pink-500 transition-all duration-200 ease-in' style={{ fontSize: '18px' }} />
                   <span className='text-red-500 text-xs md:text-sm px-4 absolute pt-2 font-bold'>New</span>
-                  <img src="phones_images/oneplusnordce4.png" alt="" />
+                  <img src="phones_/images/oneplusnordce4.png" alt="" />
                   <h2 className='text-md md:text-xl px-4 py-3'>OnePlus Nord CE4 Lite 5G</h2>
                   <span className='text-red-500 text-xs md:text-sm px-4'>4% off</span>
                   <h3 className='px-4 py-5 text-sm lg:text-md flex items-center gap-3'><FiShoppingCart /> From ₹19,999 <span className='text-xs text-gray-500 line-through'>₹20,999</span></h3>
@@ -1083,13 +1083,13 @@ const Phones = () => {
 
                 {theme ? <div className="card2 rounded-xl flex flex-col items-start mx-3 my-3 bg-[#1b1b1b] text-white h-auto min-w-[244px] md:w-full cursor-pointer relative">
                   <FaRegHeart onClick={handleToast} className='absolute right-[10px] top-[10px] text-white hover:text-pink-500 transition-all duration-200 ease-in' style={{ fontSize: '18px' }} />
-                  <img className='hover:scale-90 transition-all duration-200 ease-in cursor-pointer' src="images/phone.png" alt="" />
+                  <img className='hover:scale-90 transition-all duration-200 ease-in cursor-pointer' src="/images/phone.png" alt="" />
                   <h2 className='text-md md:text-xl px-4 py-3'>OnePlus 12</h2>
                   <span className='text-red-500 text-xs md:text-sm px-4'>7% off</span>
                   <h3 className='px-4 py-5 text-sm lg:text-md flex items-center gap-3 absolute bottom-0'><FiShoppingCart /> From ₹59,999 <span className='text-xs text-gray-500 line-through'>₹64,999</span></h3>
                 </div> : <div className="card2 rounded-xl flex flex-col items-start mx-3 my-3 bg-gray-100 h-auto min-w-[244px] md:w-full shadow-lg hover:shadow-black transition-all duration-300 ease-in cursor-pointer relative">
                   <FaRegHeart onClick={handleToast} className='absolute right-[10px] top-[10px] text-gray-600 hover:text-pink-500 transition-all duration-200 ease-in' style={{ fontSize: '18px' }} />
-                  <img src="images/phone.png" alt="" />
+                  <img src="/images/phone.png" alt="" />
                   <h2 className='text-md md:text-xl px-4 py-3'>OnePlus 12</h2>
                   <span className='text-red-500 text-xs md:text-sm px-4'>7% off</span>
                   <h3 className='px-4 py-5 text-sm lg:text-md flex items-center gap-3 absolute bottom-0'><FiShoppingCart /> From ₹59,999 <span className='text-xs text-gray-500 line-through'>₹64,999</span></h3>
@@ -1099,12 +1099,12 @@ const Phones = () => {
               <div className="container3 mt-6 hidden lg:flex">
                 {theme ? <div className="card3 rounded-xl flex flex-col items-start mx-3 my-3 bg-[#1b1b1b] text-white h-auto min-w-[244px] lg:w-[31%] shadow-lg hover:shadow-black transition-all duration-300 ease-in cursor-pointer relative">
                   <FaRegHeart onClick={handleToast} className='absolute right-[10px] top-[10px] text-white hover:text-pink-500 transition-all duration-200 ease-in' style={{ fontSize: '18px' }} />
-                  <img className='hover:scale-90 transition-all duration-200 ease-in cursor-pointer' src="images/phone7.png" alt="" />
+                  <img className='hover:scale-90 transition-all duration-200 ease-in cursor-pointer' src="/images/phone7.png" alt="" />
                   <h2 className='text-md md:text-xl px-4 py-3'>OnePlus Nord CE4</h2>
                   <h3 className='px-3 pt-5 pb-2 text-sm lg:text-md flex items-center gap-3 bottom-0'><FiShoppingCart /> From ₹24,999 </h3>
                 </div> : <div className="card3 rounded-xl flex flex-col items-start mx-3 my-3 bg-gray-100 h-auto min-w-[244px] lg:w-[31%] shadow-lg hover:shadow-black transition-all duration-300 ease-in cursor-pointer relative">
                   <FaRegHeart onClick={handleToast} className='absolute right-[10px] top-[10px] text-gray-600 hover:text-pink-500 transition-all duration-200 ease-in' style={{ fontSize: '18px' }} />
-                  <img src="images/phone7.png" alt="" />
+                  <img src="/images/phone7.png" alt="" />
                   <h2 className='text-md md:text-xl px-4 py-3'>OnePlus Nord CE4</h2>
                   <h3 className='px-3 pt-5 pb-2 text-sm lg:text-md flex items-center gap-3 bottom-0'><FiShoppingCart /> From ₹24,999 </h3>
                 </div>}
